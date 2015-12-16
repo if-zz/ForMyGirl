@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/back"
+    tools:context=".MainActivity">
+    <com.test.administrator.formygirl.TitleLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></com.test.administrator.formygirl.TitleLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+    <ImageButton
+        android:id="@+id/open_the_news"
+        android:layout_width="match_parent"
+        android:scaleType="fitXY"
+        android:layout_height="200dp"
+        android:background="@color/hint_foreground_material_dark"/>
+            <ImageButton
+                android:id="@+id/qimo"
+                android:layout_width="match_parent"
+                android:scaleType="fitXY"
+                android:background="@color/hint_foreground_material_dark"
+                android:layout_height="200dp" />
+
+            <ImageButton
+                android:id="@+id/shop"
+                android:layout_width="match_parent"
+
+                android:scaleType="fitXY"
+                android:background="@color/hint_foreground_material_dark"
+                android:layout_height="200dp" />
+            <ImageButton
+                android:id="@+id/beautiful_sights"
+                android:layout_width="match_parent"
+                android:scaleType="fitXY"
+                android:background="@color/hint_foreground_material_dark"
+                android:layout_height="200dp" />
+            <ImageButton
+                android:id="@+id/contect"
+                android:layout_width="match_parent"
+
+                android:scaleType="fitXY"
+                android:background="@color/hint_foreground_material_dark"
+                android:layout_height="200dp" />
+            <Button
+                android:id="@+id/force_offline"
+                android:layout_width="match_parent"
+                android:text="退出登录"
+                android:gravity="center"
+                android:background="@color/hint_foreground_material_dark"
+                android:textColor="@color/button_material_dark"
+                android:layout_height="20dp" />
+            <!--<com.android.volley.toolbox.NetworkImageView-->
+        <!--android:id="@+id/network_image_view"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:layout_weight="1"/>-->
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

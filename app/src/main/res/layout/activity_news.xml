@@ -1,0 +1,17 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/back"
+    android:orientation="vertical"
+    tools:context="com.test.administrator.formygirl.NewsActivity">
+   <com.test.administrator.formygirl.TitleLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"></com.test.administrator.formygirl.TitleLayout>
+    <fragment
+        android:id="@+id/news_title_fragment"
+        android:name="com.test.administrator.formygirl.NewsTitleFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

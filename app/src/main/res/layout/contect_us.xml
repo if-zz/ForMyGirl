@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/callme">
+<com.test.administrator.formygirl.TitleLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+</com.test.administrator.formygirl.TitleLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="bottom"
+        android:text="应用信息"
+        android:textSize="30sp"
+        android:textColor="@color/background_floating_material_dark"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="当前版本：1.1.1 if for K\n更新信息：未知  开发状态：神秘\n进度：为了安全，请慢行"
+        android:textSize="@dimen/abc_text_size_medium_material"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="bottom"
+        android:text="联系作者"
+        android:textSize="30sp"
+        android:textColor="@color/background_floating_material_dark"/>
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="吐槽专用b(￣▽￣)d"
+    android:textSize="@dimen/abc_text_size_medium_material"/>
+    <Button
+        android:id="@+id/callme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="点我发送"
+        android:textSize="20sp"
+        android:textColor="@color/button_material_dark"
+        android:background="#c07ce3ce"/>
+</LinearLayout>

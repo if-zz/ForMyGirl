@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/back"
+    android:orientation="vertical">
+    <com.test.administrator.formygirl.TitleLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </com.test.administrator.formygirl.TitleLayout>
+
+    <fragment
+    android:name="com.test.administrator.formygirl.SightsTitleFragment"
+    android:id="@+id/sights_title_fragment"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+</LinearLayout>
